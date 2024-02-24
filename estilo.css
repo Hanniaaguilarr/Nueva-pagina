@@ -1,0 +1,148 @@
+a{
+    text-decoration: none;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    background-color: rgb(187, 208, 247);
+    width: 100%;
+}
+header ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+header ul li{
+    margin: 10px;
+}
+header a{
+    text-decoration: none;
+}
+h2{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h3{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+}
+img{
+    width: 200px;
+}
+h1{
+    font-size: 34px;
+    color: rgb(0, 0, 0);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+p{
+    font-size: 20px;
+    color: rgb(74, 67, 67);
+}
+.presentacion{
+    background-color: rgb(187, 208, 247);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.presentacion h1{
+    font: size 60px; 
+    color: rgb(0, 0, 0);
+}
+.presentacion p{
+    width: 90%;
+    font-size: 30px;
+    padding: 10px;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 10px 0 10px 0;
+    background-color: rgb(147, 175, 228);
+}
+.col-sm{
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.col-sm img {
+    border-radius: 50%;
+}
+.col-sm p{
+    font-size: 18px;
+}
+.col-md-4{
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.col-md-4 img {
+    border-radius: 50%;
+}
+.col-md-4 p{
+    font-size: 18px;
+}
+#externo{
+
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        background-color: rgb(147, 175, 228);
+    }
+    #externo iframe{
+        padding: 10px;
+        margin: 10px;}
+.discografia{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 10px 0 10px 0;
+    background-color: rgb(147, 175, 228);
+}
+.album{
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.album img {
+    border-radius: 50%;
+}
+.album h1{
+    font-size: 25px;
+}
+.album p{
+    font-size: 20;
+}
+.album a{
+    text-decoration: none;
+}
+.carousel-img {
+    max-height: 800px; /* Altura máxima de las imágenes */
+    width: auto; /* Ancho ajustado automáticamente */
+  }
+main {
+    background-color: rgb(147, 175, 228); /* Cambia este valor al color deseado */
+  }
+footer{
+    background-color: rgb(147, 175, 228); 
+}
